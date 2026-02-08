@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-sans antialiased text-brand-800 bg-brand-50;
+  }
+}
+
+@layer utilities {
+  .glass {
+    @apply bg-white/80 backdrop-blur-xl border border-white/60 shadow-glass;
+  }
+
+  .glass-card {
+    @apply bg-white/90 backdrop-blur-lg border border-white/70 shadow-soft-xl rounded-2xl;
+  }
+
+  .container-tight {
+    @apply max-w-4xl mx-auto px-4;
+  }
+}
