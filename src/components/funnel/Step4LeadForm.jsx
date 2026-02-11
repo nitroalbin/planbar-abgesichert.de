@@ -14,7 +14,7 @@ const FloatingInput = ({ label, value, onChange, type = "text", required, classN
             className="peer block w-full rounded-xl border-2 border-brand-100 bg-white/80 px-4 pt-6 pb-2 text-brand-900 focus:border-brand-400 focus:ring-4 focus:ring-brand-100 outline-none transition-all shadow-sm"
             {...props}
         />
-        <label className="absolute left-4 top-4 z-10 origin-[0] -translate-y-3 scale-75 transform text-brand-400 duration-200 peer-placeholder-shown:translate-y-0 peer-placeholder-shown:scale-100 peer-focus:-translate-y-3 peer-focus:scale-75 cursor-text font-medium">
+        <label className="absolute left-4 top-4 z-10 origin-[0] -translate-y-3 scale-75 transform text-brand-400 duration-200 peer-placeholder-shown:translate-y-0 peer-placeholder-shown:scale-100 peer-focus:-translate-y-3 peer-focus:scale-75 cursor-text font-medium pointer-events-none">
             {label} {required && '*'}
         </label>
     </div>
