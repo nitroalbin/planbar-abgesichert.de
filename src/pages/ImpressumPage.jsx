@@ -7,31 +7,76 @@ const ImpressumPage = () => {
             <div className="prose prose-slate max-w-none prose-headings:font-serif prose-headings:text-brand-900 prose-p:text-brand-700">
                 <h1>Impressum</h1>
                 
-                <p>
-                    René Rosenthal<br />
-                    Harsefelder Straße 10 a<br />
-                    21614 Buxtehude-Hedendorf
-                </p>
+                <div className="mb-8">
+                    <h3 className="mb-4">Angaben gemäß § 5 TMG</h3>
+                    <p className="whitespace-pre-line">
+                        René Rosenthal<br />
+                        Harsefelder Straße 10a<br />
+                        21614 Buxtehude-Hedendorf<br />
+                        Telefon: <a href="tel:04163809300" className="text-brand-600 hover:underline">04163 809300</a><br />
+                        E-Mail: <a href="mailto:rosenthal.rene@allianz.de" className="text-brand-600 hover:underline">rosenthal.rene@allianz.de</a>
+                    </p>
+                </div>
 
-                <h3>Kontakt</h3>
-                <p>
-                    Telefon: 04163 809300<br />
-                    E-Mail: <a href="mailto:rosenthal.rene@allianz.de">rosenthal.rene@allianz.de</a>
-                </p>
+                <div className="mb-8">
+                    <h3 className="mb-4">Tätigkeit als Versicherungsvermittler</h3>
+                    <p>
+                        Vermittlung von Versicherungen als gebundener Vertreter nach § 34d Abs. 4 Gewerbeordnung (GewO) ausschließlich für die Versicherungsunternehmen der Allianz.
+                    </p>
+                </div>
 
-                <p>Inhaltlicher Verantwortlicher: wie oben</p>
+                <div className="mb-8">
+                    <h3 className="mb-4">Eingetragen im Versicherungsvermittlerregister gemäß § 11a GewO</h3>
+                    <p className="whitespace-pre-line">
+                        Registrierungsnummer: D-SC6X-FSC0V-74<br /><br />
+                        Registerführende Stelle:<br />
+                        Industrie- und Handelskammer Lüneburg-Wolfsburg<br />
+                        Am Sande 1<br />
+                        21335 Lüneburg<br /><br />
+                        Abrufbar unter:<br />
+                        <a href="https://www.vermittlerregister.info" target="_blank" rel="noopener noreferrer" className="text-brand-600 hover:underline">www.vermittlerregister.info</a>
+                    </p>
+                </div>
 
-                <h3>Streitschlichtung</h3>
-                <p>
-                    Allgemeine Informationspflichten zur alternativen Streitbeilegung nach Art. 14 Abs. 1 ODR-VO
-                    und § 36 VSBG (Verbraucherstreitbeilegungsgesetz)
-                </p>
-                <p>
-                    Die europäische Kommission stellt eine Plattform zur Online-Streitbelegung (OS) zur
-                    Verfügung, die Sie unter dieser Adresse finden: <a href="http://ec.europa.eu/consumers/odr/" target="_blank" rel="noopener noreferrer">http://ec.europa.eu/consumers/odr/</a>. Zur
-                    Teilnahme an einem Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle sind
-                    wir nicht verpflichtet und auch nicht bereit.
-                </p>
+                <div className="mb-8">
+                    <h3 className="mb-4">Aufsichtsbehörde</h3>
+                    <p className="whitespace-pre-line">
+                        Industrie- und Handelskammer Lüneburg-Wolfsburg<br />
+                        Am Sande 1<br />
+                        21335 Lüneburg
+                    </p>
+                </div>
+
+                <div className="mb-8">
+                    <h3 className="mb-4">Beteiligungsverhältnisse</h3>
+                    <p>
+                        Es bestehen keine direkten oder indirekten Beteiligungen von über 10 % an den Stimmrechten oder am Kapital eines Versicherungsunternehmens.
+                    </p>
+                    <p>
+                        Ebenso hält kein Versicherungsunternehmen oder Mutterunternehmen eines Versicherungsunternehmens eine Beteiligung von über 10 % an den Stimmrechten oder am Kapital dieses Unternehmens.
+                    </p>
+                </div>
+
+                <div className="mb-8">
+                    <h3 className="mb-4">Streitbeilegung</h3>
+                    <p>
+                        Informationen zur außergerichtlichen Streitbeilegung gemäß § 36 VSBG:
+                    </p>
+                    <p>
+                        Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit:<br />
+                        <a href="http://ec.europa.eu/consumers/odr" target="_blank" rel="noopener noreferrer" className="text-brand-600 hover:underline">http://ec.europa.eu/consumers/odr</a>
+                    </p>
+                    <p>
+                        Zur Teilnahme an einem Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle sind wir nicht verpflichtet und nicht bereit.
+                    </p>
+                </div>
+
+                <div className="mb-8">
+                    <h3 className="mb-4">Umsatzsteuer-Identifikationsnummer gemäß § 27a UStG:</h3>
+                    <p>
+                        Es wird keine Umsatzsteuer-Identifikationsnummer geführt
+                    </p>
+                </div>
             </div>
         </Card>
     );
